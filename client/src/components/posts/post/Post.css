@@ -1,0 +1,89 @@
+/* main container */
+
+.post{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding-bottom: 1rem;
+    border-radius: 15px;
+    overflow: hidden;
+    
+    
+}
+/* Top portion of the post */
+.post .post-top{
+    height: 10rem;
+    width: 20rem;
+}
+.post .post-top-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1rem;
+   
+}
+
+.post .post-top-content h1{
+    color: white;
+    font-size: 15px;
+
+}
+.post .post-top-content span{
+    color: white;
+    font-size: 8px;
+    
+}
+.post .post-top-content .icon{
+    color: white;
+    cursor: pointer;
+}
+.post .post-top-content .post-top-left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* body of the post */
+.post .post-body{
+    margin: 1rem;
+}
+.post .post-body .tags{
+    font-size: 16px;
+    color: gray;
+    font-weight: 400;
+}
+.post .post-body .title{
+    font-size: 18px;
+    font-weight: 500;
+}
+.post .post-body .message{
+    font-size: 16px;
+    color: gray;
+    font-weight: 400;
+
+}
+/* Footer of the post */
+.post .post-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 1rem;
+}
+.post .post-footer .like{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.post .post-footer .like span{
+    color: #4267b2;
+    font-weight: 500;
+    margin-left: 0.2rem;
+}
+.post .post-footer .delete{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.post .post-footer .delete span{
+    color: #4267b2;
+    font-weight: 500;
+}

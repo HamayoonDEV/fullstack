@@ -1,0 +1,54 @@
+.Form{
+    position: fixed;
+    top: 10rem;
+}
+
+.Form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.Form form label{
+    margin-bottom: 1rem;
+}
+.Form form input{
+    border: none;
+    outline: none;
+    height: 2rem;
+    width: 12rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+.Form form .filebase{
+    border: none;
+    outline: none;
+    height: 2rem;
+    width: 12rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+.Form form textarea{
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.Form form button{
+    height: 2rem;
+    width: 12rem;
+    color: white;
+    font-weight: 400;
+    border: none;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.Form form .btn1{
+    background-color: blue;
+}
+.Form form .btn2{
+    background-color: red;
+}

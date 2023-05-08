@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:1024px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.forms{
+ 
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
